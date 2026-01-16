@@ -1,0 +1,124 @@
+/* Windows 98 Start Menu Styling */
+
+.start-menu {
+    position: fixed;
+    bottom: 28px;
+    left: 0;
+    width: 200px;
+    background: #c0c0c0;
+    border-top: 2px solid #ffffff;
+    border-left: 2px solid #ffffff;
+    border-right: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+    z-index: 10001;
+}
+
+.start-menu-banner {
+    height: 100%;
+    width: 24px;
+    background: linear-gradient(to bottom, #000080, #1084d0);
+    color: #ffffff;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    padding: 8px 0;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    float: left;
+}
+
+.start-menu-banner-text {
+    transform: rotate(180deg);
+    display: inline-block;
+}
+
+.start-menu-items {
+    margin-left: 24px;
+    padding: 2px;
+}
+
+.start-menu-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 4px 8px;
+    cursor: pointer;
+    font-size: 11px;
+    position: relative;
+    min-height: 24px;
+}
+
+.start-menu-item:hover {
+    background: #000080;
+    color: #ffffff;
+}
+
+.start-menu-item img {
+    width: 16px;
+    height: 16px;
+}
+
+.start-menu-item .arrow {
+    margin-left: auto;
+    font-size: 10px;
+}
+
+.start-menu-separator {
+    height: 1px;
+    background: #808080;
+    margin: 2px 8px;
+    border-bottom: 1px solid #ffffff;
+}
+
+/* Submenu */
+.submenu {
+    position: fixed;
+    background: #c0c0c0;
+    border-top: 2px solid #ffffff;
+    border-left: 2px solid #ffffff;
+    border-right: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+    z-index: 10002;
+    min-width: 150px;
+    padding: 2px;
+}
+
+/* Context Menu */
+.context-menu {
+    position: fixed;
+    background: #c0c0c0;
+    border-top: 2px solid #ffffff;
+    border-left: 2px solid #ffffff;
+    border-right: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+    z-index: 10003;
+    min-width: 150px;
+    padding: 2px;
+}
+
+.context-menu-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 4px 8px;
+    cursor: pointer;
+    font-size: 11px;
+    min-height: 20px;
+}
+
+.context-menu-item:hover {
+    background: #000080;
+    color: #ffffff;
+}
+
+.context-menu-item .arrow {
+    margin-left: auto;
+    font-size: 10px;
+}
+
+.context-menu-separator {
+    height: 1px;
+    background: #808080;
+    margin: 2px 4px;
+    border-bottom: 1px solid #ffffff;
+}

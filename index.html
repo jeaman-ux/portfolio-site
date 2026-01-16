@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jordan Design Portfolio 2026</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/windows.css">
+    <link rel="stylesheet" href="css/startmenu.css">
+    <link rel="stylesheet" href="css/desktop.css">
+    <link rel="stylesheet" href="css/terminal.css">
+</head>
+<body>
+    <!-- Desktop -->
+    <div id="desktop" class="desktop">
+        <!-- Desktop icons will be dynamically generated here -->
+    </div>
+
+    <!-- Windows container -->
+    <div id="windows-container"></div>
+
+    <!-- Start Menu -->
+    <div id="start-menu" class="start-menu" style="display: none;">
+        <div class="start-menu-banner">
+            <span class="start-menu-banner-text">Windows <strong>98</strong></span>
+        </div>
+        <div class="start-menu-items">
+            <div class="start-menu-item" data-action="programs">
+                <img src="assets/icons/programs.png" alt="">
+                <span>Programs</span>
+                <span class="arrow">▶</span>
+            </div>
+            <div class="start-menu-item" data-action="documents">
+                <img src="assets/icons/documents.png" alt="">
+                <span>Documents</span>
+                <span class="arrow">▶</span>
+            </div>
+            <div class="start-menu-item" data-action="settings">
+                <img src="assets/icons/settings.png" alt="">
+                <span>Settings</span>
+                <span class="arrow">▶</span>
+            </div>
+            <div class="start-menu-item" data-action="find">
+                <img src="assets/icons/search.png" alt="">
+                <span>Find</span>
+            </div>
+            <div class="start-menu-item" data-action="help">
+                <img src="assets/icons/help.png" alt="">
+                <span>Help</span>
+            </div>
+            <div class="start-menu-item" data-action="run">
+                <img src="assets/icons/run.png" alt="">
+                <span>Run...</span>
+            </div>
+            <div class="start-menu-separator"></div>
+            <div class="start-menu-item" data-action="eco-friendly">
+                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16'%3E%3Crect fill='%2300ff00' width='16' height='16'/%3E%3C/svg%3E" alt="">
+                <span>Eco-friendly Mode</span>
+            </div>
+            <div class="start-menu-item" data-action="shutdown">
+                <img src="assets/icons/shutdown.png" alt="">
+                <span>Shut Down...</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Programs Submenu -->
+    <div id="programs-submenu" class="submenu" style="display: none;">
+        <div class="start-menu-item" data-app="notepad">
+            <img src="assets/icons/notepad.png" alt="">
+            <span>Notepad</span>
+        </div>
+        <div class="start-menu-item" data-app="minesweeper">
+            <img src="assets/icons/minesweeper.png" alt="">
+            <span>Minesweeper</span>
+        </div>
+        <div class="start-menu-item" data-app="explorer">
+            <img src="assets/icons/explorer.png" alt="">
+            <span>Windows Explorer</span>
+        </div>
+    </div>
+
+    <!-- Desktop Context Menu -->
+    <div id="context-menu" class="context-menu" style="display: none;">
+        <div class="context-menu-item" data-action="arrange">
+            <span>Arrange Icons</span>
+            <span class="arrow">▶</span>
+        </div>
+        <div class="context-menu-separator"></div>
+        <div class="context-menu-item" data-action="refresh">
+            <span>Refresh</span>
+        </div>
+        <div class="context-menu-separator"></div>
+        <div class="context-menu-item" data-action="properties">
+            <span>Properties</span>
+        </div>
+    </div>
+
+    <!-- Terminal Mode (Eco-friendly) -->
+    <div id="terminal-mode" class="terminal-mode" style="display: none;">
+        <div class="terminal-header">
+            <span>Jordan Design Portfolio 2026 - Eco-friendly Terminal Mode</span>
+            <button id="terminal-exit" class="terminal-exit-btn">Exit to Classic Mode</button>
+        </div>
+        <div id="terminal-output" class="terminal-output"></div>
+        <div class="terminal-input-line">
+            <span class="terminal-prompt">portfolio@jordaneaman:~$</span>
+            <input type="text" id="terminal-input" class="terminal-input" autofocus autocomplete="off">
+        </div>
+    </div>
+
+    <!-- Taskbar -->
+    <div id="taskbar" class="taskbar">
+        <button id="start-button" class="start-button">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16'%3E%3Crect fill='%23ff0000' width='8' height='8'/%3E%3Crect fill='%2300ff00' x='8' width='8' height='8'/%3E%3Crect fill='%230000ff' y='8' width='8' height='8'/%3E%3Crect fill='%23ffff00' x='8' y='8' width='8' height='8'/%3E%3C/svg%3E" alt="Start">
+            <span>Start</span>
+        </button>
+        <div class="taskbar-separator"></div>
+        <div id="taskbar-buttons" class="taskbar-buttons">
+            <!-- Active window buttons will appear here -->
+        </div>
+        <div class="system-tray">
+            <div class="tray-icon">🔊</div>
+            <div id="clock" class="clock">12:00 PM</div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="js/window-manager.js"></script>
+    <script src="js/taskbar.js"></script>
+    <script src="js/startmenu.js"></script>
+    <script src="js/desktop.js"></script>
+    <script src="js/portfolio-loader.js"></script>
+    <script src="js/terminal.js"></script>
+    <script src="js/apps/project-viewer.js"></script>
+    <script src="js/apps/notepad.js"></script>
+    <script src="js/apps/minesweeper.js"></script>
+    <script src="js/apps/explorer.js"></script>
+    <script src="js/apps/myspace.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

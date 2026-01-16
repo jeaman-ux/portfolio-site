@@ -1,0 +1,155 @@
+/* Windows 98 Desktop Icons */
+
+.desktop-icon {
+    position: absolute;
+    width: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    padding: 4px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.desktop-icon.selected {
+    background: rgba(0, 0, 128, 0.3);
+}
+
+.desktop-icon.selected .desktop-icon-label {
+    background: #000080;
+    color: #ffffff;
+}
+
+.desktop-icon-image {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.desktop-icon-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.desktop-icon-label {
+    font-size: 11px;
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+    word-wrap: break-word;
+    max-width: 70px;
+    line-height: 1.2;
+    padding: 2px;
+}
+
+/* Grid layout for icons */
+.desktop-icon[data-grid-x="0"] { left: 10px; }
+.desktop-icon[data-grid-x="1"] { left: 90px; }
+.desktop-icon[data-grid-x="2"] { left: 170px; }
+.desktop-icon[data-grid-x="3"] { left: 250px; }
+.desktop-icon[data-grid-x="4"] { left: 330px; }
+.desktop-icon[data-grid-x="5"] { left: 410px; }
+
+.desktop-icon[data-grid-y="0"] { top: 10px; }
+.desktop-icon[data-grid-y="1"] { top: 90px; }
+.desktop-icon[data-grid-y="2"] { top: 170px; }
+.desktop-icon[data-grid-y="3"] { top: 250px; }
+.desktop-icon[data-grid-y="4"] { top: 330px; }
+.desktop-icon[data-grid-y="5"] { top: 410px; }
+.desktop-icon[data-grid-y="6"] { top: 490px; }
+.desktop-icon[data-grid-y="7"] { top: 570px; }
+.desktop-icon[data-grid-y="8"] { top: 650px; }
+
+/* Icon types - Using authentic Windows 98 icons */
+.desktop-icon[data-icon-type="folder"] .desktop-icon-image {
+    background-image: url('../assets/icons/folder.png');
+}
+
+.desktop-icon[data-icon-type="computer"] .desktop-icon-image {
+    background-image: url('../assets/icons/my-computer.png');
+}
+
+.desktop-icon[data-icon-type="recycle-bin"] .desktop-icon-image {
+    background-image: url('../assets/icons/recycle-bin.png');
+}
+
+.desktop-icon[data-icon-type="document"] .desktop-icon-image {
+    background-image: url('../assets/icons/notepad.png');
+}
+
+.desktop-icon[data-icon-type="about"] .desktop-icon-image {
+    background-image: url('../assets/icons/about-me.png');
+}
+
+.desktop-icon[data-icon-type="internet-explorer"] .desktop-icon-image {
+    background-image: url('../assets/icons/internet-explorer.png');
+}
+
+/* Portfolio Project Icons - using emojis for now */
+.desktop-icon[data-icon-type="sennos"] .desktop-icon-image::before {
+    content: '🚛'; /* Truck for logistics */
+}
+
+.desktop-icon[data-icon-type="assembl"] .desktop-icon-image::before {
+    content: '👥'; /* Group for community */
+}
+
+.desktop-icon[data-icon-type="djingo"] .desktop-icon-image::before {
+    content: '🏙️'; /* City for urban assistant */
+}
+
+.desktop-icon[data-icon-type="xtract"] .desktop-icon-image::before {
+    content: '⛷️'; /* Skiing */
+}
+
+.desktop-icon[data-icon-type="zixi"] .desktop-icon-image::before {
+    content: '🔬'; /* Lab for research */
+}
+
+.desktop-icon[data-icon-type="dotank"] .desktop-icon-image::before {
+    content: '♻️'; /* Recycling for eco */
+}
+
+.desktop-icon[data-icon-type="justla"] .desktop-icon-image::before {
+    content: '🌾'; /* Farm/produce */
+}
+
+.desktop-icon[data-icon-type="idf-kiosk"] .desktop-icon-image::before {
+    content: '🗞️'; /* News/kiosk */
+}
+
+.desktop-icon[data-icon-type="movinon"] .desktop-icon-image::before {
+    content: '🚗'; /* Mobility/Michelin */
+}
+
+.desktop-icon[data-icon-type="kmun"] .desktop-icon-image::before {
+    content: '🚇'; /* Transit */
+}
+
+.desktop-icon[data-icon-type="research"] .desktop-icon-image::before {
+    content: '📚'; /* Book/thesis */
+}
+
+.desktop-icon[data-icon-type="graphic-design"] .desktop-icon-image::before {
+    content: '🎨'; /* Art/design */
+}
+
+.desktop-icon[data-icon-type="fine-arts"] .desktop-icon-image::before {
+    content: '🖼️'; /* Gallery */
+}
+
+.desktop-icon[data-icon-type="hackathon"] .desktop-icon-image::before {
+    content: '💡'; /* Innovation */
+}
+
+.desktop-icon[data-icon-type="obside"] .desktop-icon-image::before {
+    content: '🎯'; /* Project/target */
+}
