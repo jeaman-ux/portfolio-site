@@ -2,7 +2,8 @@
 
 class PortfolioLoader {
     constructor() {
-        this.baseURL = '../Jordaneaman Site/text/exact/';
+        this.baseURL = 'jordaneaman-content/text/exact/';
+        this.imagesURL = 'jordaneaman-content/images/Site Files/';
         this.cache = {};
     }
 
@@ -109,44 +110,75 @@ This is a creative way to showcase design work with a nostalgic twist!`;
     getAboutMeContent() {
         return `
             <div style="padding: 20px; font-family: Arial, sans-serif; line-height: 1.6;">
-                <h2 style="color: #000080; margin-bottom: 16px;">About Jordan Eaman</h2>
+                <h2 style="color: #000080; margin-bottom: 16px;">About Jordan Aman</h2>
 
                 <p style="margin-bottom: 12px;">
-                    <strong>Location:</strong> American designer based in Paris, France since 2015
+                    <strong>Location:</strong> Paris, France
                 </p>
 
                 <p style="margin-bottom: 12px;">
-                    I consider myself, first and foremost, a service designer, and use service design
-                    methods and tools to build a systemic analysis and approach to each of my projects.
+                    I believe that design is, at its roots, a powerful tool/domain that lays the groundwork for innovation and progress, and that there has never been a more important time for designers to reach and push any limits possible. I am highly motivated by the future of design, as it extends far beyond conventional applications (services, experiences, products, etc.) like politics and management.
                 </p>
 
-                <h3 style="color: #000080; margin: 20px 0 12px 0;">Skills & Tools</h3>
+                <h3 style="color: #000080; margin: 20px 0 12px 0;">Current Role</h3>
+                <p style="margin-bottom: 12px;">
+                    <strong>Senior Product Designer at Concord</strong> (2023-present)<br>
+                    Piloting all design activity, research, Design system, project management, and AI workflow adoption.
+                </p>
+
+                <h3 style="color: #000080; margin: 20px 0 12px 0;">Software</h3>
                 <ul style="margin-left: 20px; margin-bottom: 16px;">
-                    <li>Sketch</li>
-                    <li>Adobe Creative Cloud</li>
                     <li>Figma</li>
-                    <li>Notion</li>
-                    <li>WordPress/Elementor</li>
+                    <li>Photoshop, Illustrator, InDesign</li>
+                    <li>Microsoft / Google Office tools</li>
+                    <li>Claude Code, Miro, Webflow</li>
+                    <li>HTML, CSS (basic understanding)</li>
                 </ul>
+
+                <h3 style="color: #000080; margin: 20px 0 12px 0;">Expertise</h3>
+                <ul style="margin-left: 20px; margin-bottom: 16px;">
+                    <li>Design Systems</li>
+                    <li>System / Service Design</li>
+                    <li>UX / UI Design + Methods</li>
+                    <li>Urban UX Design</li>
+                    <li>Research</li>
+                    <li>Product management</li>
+                    <li>Team management and facilitation</li>
+                </ul>
+
+                <h3 style="color: #000080; margin: 20px 0 12px 0;">Languages</h3>
+                <ul style="margin-left: 20px; margin-bottom: 16px;">
+                    <li>English, native</li>
+                    <li>French, bilingual</li>
+                    <li>Spanish, basics</li>
+                </ul>
+
+                <h3 style="color: #000080; margin: 20px 0 12px 0;">Education</h3>
+                <p style="margin-bottom: 8px;">
+                    <strong>Masters in Design for Smart Cities (M2)</strong> - 2019<br>
+                    Strate École de Design, Sévres, France
+                </p>
+                <p style="margin-bottom: 12px;">
+                    <strong>Bachelor of Fine Art | BFA, Art History Minor</strong> - 2015<br>
+                    Florida State University, Tallahassee, FL, USA
+                </p>
 
                 <h3 style="color: #000080; margin: 20px 0 12px 0;">Notable Clients</h3>
                 <ul style="margin-left: 20px; margin-bottom: 16px;">
+                    <li>Concord</li>
                     <li>Sennder</li>
                     <li>Bluenove</li>
                     <li>Michelin</li>
                     <li>Nexity</li>
-                    <li>Monaco's government office</li>
+                    <li>Orange</li>
+                    <li>Valéo</li>
+                    <li>Région Île-de-France</li>
+                    <li>La Principauté de Monaco</li>
                 </ul>
 
-                <h3 style="color: #000080; margin: 20px 0 12px 0;">Expertise Areas</h3>
-                <p style="margin-bottom: 12px;">
-                    Working across cities, web, services, applications, and research & analysis,
-                    positioning design as foundational to innovation and progress.
-                </p>
-
                 <p style="margin-top: 20px; padding: 12px; background: #fffacd; border: 1px solid #f0e68c;">
-                    <strong>Contact:</strong> JordanEAman@gmail.com<br>
-                    <strong>Social:</strong> Medium, LinkedIn
+                    <strong>Contact:</strong> jordaneaman@gmail.com<br>
+                    <strong>Phone:</strong> +33 7 83 65 08 27
                 </p>
 
                 <p style="margin-top: 20px; text-align: center;">

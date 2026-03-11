@@ -392,6 +392,11 @@ class MySpaceApp {
                     vertical-align: top;
                 }
 
+                .myspace-table a {
+                    color: #7FFF00;
+                    font-weight: bold;
+                }
+
                 .myspace-label {
                     font-weight: bold;
                     color: #FFFFFF;
@@ -618,7 +623,7 @@ class MySpaceApp {
                         <!-- Profile Header -->
                         <div class="myspace-header">
                             <div class="myspace-name">Jordan Aman</div>
-                            <div class="myspace-tagline">"Design is intelligence made visible."</div>
+                            <div class="myspace-tagline">"Design lays the groundwork for innovation and progress."</div>
                         </div>
 
                         <!-- Main Content -->
@@ -652,23 +657,31 @@ class MySpaceApp {
                                     <table class="myspace-table">
                                         <tr>
                                             <td class="myspace-label">Status:</td>
-                                            <td>In a Relationship with Design</td>
+                                            <td>Senior Product Designer at Concord</td>
                                         </tr>
                                         <tr>
                                             <td class="myspace-label">Here For:</td>
-                                            <td>Networking, Creative Projects</td>
+                                            <td>Networking, Design Systems, AI Workflows</td>
                                         </tr>
                                         <tr>
-                                            <td class="myspace-label">Hometown:</td>
+                                            <td class="myspace-label">Location:</td>
                                             <td>Paris, France</td>
                                         </tr>
                                         <tr>
                                             <td class="myspace-label">Occupation:</td>
-                                            <td>Product Designer / UX Designer</td>
+                                            <td>Product Design / Service Design</td>
                                         </tr>
                                         <tr>
-                                            <td class="myspace-label">Website:</td>
-                                            <td><a href="#">www.jordaneaman.com</a></td>
+                                            <td class="myspace-label">Education:</td>
+                                            <td>Masters in Design for Smart Cities (Strate), BFA (Florida State)</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="myspace-label">Languages:</td>
+                                            <td>English (native), French (bilingual), Spanish (basics)</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="myspace-label">Email:</td>
+                                            <td><a href="mailto:jordaneaman@gmail.com">jordaneaman@gmail.com</a></td>
                                         </tr>
                                     </table>
                                 </div>
@@ -677,9 +690,11 @@ class MySpaceApp {
                                 <div class="myspace-section">
                                     <div class="myspace-section-title">About Me:</div>
                                     <div class="myspace-section-content">
-                                        Hey! I'm Jordan, a product designer passionate about creating meaningful digital experiences. I specialize in UX/UI design, user research, and design systems. I love solving complex problems through elegant design solutions.
+                                        I believe that design is, at its roots, a powerful tool/domain that lays the groundwork for innovation and progress, and that there has never been a more important time for designers to reach and push any limits possible.
                                         <br><br>
-                                        Currently working on exciting projects in logistics, civic tech, and sustainable mobility. Always looking to collaborate with creative minds!
+                                        I am highly motivated by the future of design, as it extends far beyond conventional applications (services, experiences, products, etc.) like politics and management.
+                                        <br><br>
+                                        Currently piloting all design activity, research, Design system, project management, and AI workflow adoption at Concord. Previously worked at Sennder (logistics platforms), Bluenove (collective intelligence), and as a freelance consultant for Michelin, Nexity, and others.
                                     </div>
                                 </div>
 
@@ -687,7 +702,7 @@ class MySpaceApp {
                                 <div class="myspace-section">
                                     <div class="myspace-section-title">Who I'd Like to Meet:</div>
                                     <div class="myspace-section-content">
-                                        Creative professionals, innovative thinkers, and anyone passionate about design and technology. Let's connect if you're working on projects that make a positive impact!
+                                        Designers pushing boundaries beyond conventional applications, innovators working on digital infrastructures and policy-making, and teams focused on system/service design, urban UX, and AI workflows. Let's connect if you're working on projects that extend design's impact!
                                     </div>
                                 </div>
 
@@ -696,24 +711,20 @@ class MySpaceApp {
                                     <div class="myspace-section-title">Interests</div>
                                     <table class="myspace-table">
                                         <tr>
-                                            <td class="myspace-label">General:</td>
-                                            <td>Design, Technology, Innovation, Sustainability, Urban Planning</td>
+                                            <td class="myspace-label">Professional:</td>
+                                            <td>Design Systems, Service Design, Urban UX Design, Digital Infrastructures, AI Workflows, Policy-Making Design</td>
                                         </tr>
                                         <tr>
-                                            <td class="myspace-label">Music:</td>
-                                            <td>Electronic, Indie, Jazz, Lo-fi Hip Hop</td>
+                                            <td class="myspace-label">Tools:</td>
+                                            <td>Figma, Adobe Creative Cloud, Claude Code, Miro, Webflow, HTML/CSS</td>
                                         </tr>
                                         <tr>
-                                            <td class="myspace-label">Movies:</td>
-                                            <td>Sci-fi, Design Documentaries, Art Films</td>
+                                            <td class="myspace-label">Research Focus:</td>
+                                            <td>Digital infrastructures, Design applied to policy-making, Smart Cities</td>
                                         </tr>
                                         <tr>
-                                            <td class="myspace-label">Books:</td>
-                                            <td>Design Thinking, UX Research, Technology & Society</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="myspace-label">Heroes:</td>
-                                            <td>Dieter Rams, Steve Jobs, Don Norman, Susan Kare</td>
+                                            <td class="myspace-label">Past Work:</td>
+                                            <td>Flying trapeze performer & acrobat (2011-2014), Co-founder of FloWhip (2012-2015)</td>
                                         </tr>
                                     </table>
                                 </div>
@@ -722,13 +733,20 @@ class MySpaceApp {
                                 <div class="myspace-section">
                                     <div class="myspace-section-title">Jordan's Blurbs</div>
                                     <div class="myspace-section-content">
-                                        <strong>Design Philosophy:</strong>
+                                        <strong>Current Role (2023-present):</strong>
                                         <br>
-                                        "Good design is as little design as possible." I believe in creating intuitive, user-centered experiences that solve real problems. Every pixel has a purpose, and every interaction should feel natural.
+                                        Senior Product Designer at Concord - Piloting all design activity, research, Design system, project management, and AI workflow adoption.
                                         <br><br>
-                                        <strong>Current Projects:</strong>
+                                        <strong>Previous Experience:</strong>
                                         <br>
-                                        Working on logistics software at sennder, collective intelligence platforms, and sustainable mobility solutions. Check out my portfolio for more!
+                                        • Sennder (2021-2023): Senior Product Designer on 4 road freight logistics management platforms<br>
+                                        • Bluenove (2019-2021): Lead Designer on "Assembl" collective intelligence platform<br>
+                                        • 40/60 Service Design Studio (2019): Service/UX Designer internship<br>
+                                        • Freelance (2018-2019): Service design for Michelin, UX/UI for Nexity and Matrice
+                                        <br><br>
+                                        <strong>Education & Research:</strong>
+                                        <br>
+                                        Masters in Design for Smart Cities from Strate École de Design (2019). Research focus on digital infrastructures and design applied to policy-making. Academic clients include Orange, Valéo, Région IDF, Lucitopia RDC, and La Principauté de Monaco.
                                     </div>
                                 </div>
 
