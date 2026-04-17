@@ -87,8 +87,76 @@ class Desktop {
             }
         });
 
+        // Drag and drop functionality
+        this.attachDragEvents(iconEl, icon);
+
         this.desktop.appendChild(iconEl);
         return iconEl;
+    }
+
+    attachDragEvents(iconEl, icon) {
+        let isDragging = false;
+        let hasMoved = false;
+        let startX, startY;
+        let offsetX, offsetY;
+
+        iconEl.addEventListener('mousedown', (e) => {
+            // Only start drag on left click and not on double-click
+            if (e.button !== 0) return;
+
+            isDragging = true;
+            hasMoved = false;
+            startX = e.clientX;
+            startY = e.clientY;
+
+            // Get current position
+            const rect = iconEl.getBoundingClientRect();
+            offsetX = e.clientX - rect.left;
+            offsetY = e.clientY - rect.top;
+
+            // Select the icon
+            this.selectIcon(iconEl);
+
+            e.preventDefault();
+        });
+
+        document.addEventListener('mousemove', (e) => {
+            if (!isDragging) return;
+
+            const moveDistance = Math.abs(e.clientX - startX) + Math.abs(e.clientY - startY);
+            if (moveDistance > 5) {
+                hasMoved = true;
+            }
+
+            if (hasMoved) {
+                // Switch to absolute positioning
+                iconEl.style.left = (e.clientX - offsetX) + 'px';
+                iconEl.style.top = (e.clientY - offsetY) + 'px';
+
+                // Remove grid attributes to prevent CSS grid positioning
+                iconEl.removeAttribute('data-grid-x');
+                iconEl.removeAttribute('data-grid-y');
+
+                // Add dragging class for visual feedback
+                iconEl.classList.add('dragging');
+            }
+        });
+
+        document.addEventListener('mouseup', (e) => {
+            if (isDragging) {
+                isDragging = false;
+                iconEl.classList.remove('dragging');
+
+                // If icon was moved, update its stored position
+                if (hasMoved) {
+                    const rect = iconEl.getBoundingClientRect();
+                    icon.x = rect.left;
+                    icon.y = rect.top;
+                    icon.gridX = null;
+                    icon.gridY = null;
+                }
+            }
+        });
     }
 
     createSystemIcons() {
@@ -172,14 +240,15 @@ class Desktop {
 
         // Main desktop projects
         const mainProjects = [
-            { name: 'SennOS at\nsennder', type: 'sennos', file: 'exact_sennos.txt', gridX: 1, gridY: 0 },
-            { name: 'Assembl by\nbluenove', type: 'assembl', file: 'exact_assembl.txt', gridX: 2, gridY: 0 },
+            { name: 'SennOS at\nsennder\n(2021-2023)', type: 'sennos', file: 'exact_sennos.txt', gridX: 1, gridY: 0 },
+            { name: 'Assembl by\nbluenove\n(2019-2021)', type: 'assembl', file: 'exact_assembl.txt', gridX: 2, gridY: 0 },
             { name: 'X-TRACT', type: 'xtract', file: 'exact_x-tract.txt', gridX: 4, gridY: 0 },
             { name: 'Do Tank by\nCITEO', type: 'dotank', file: 'exact_owf.txt', gridX: 1, gridY: 1 },
             { name: "Movin'On HUB\nMICHELIN", type: 'movinon', file: 'exact_obside.txt', gridX: 2, gridY: 1 },
             { name: 'Graphic\nDesign', type: 'graphic-design', file: 'exact_graphic-design.txt', gridX: 3, gridY: 1 },
             { name: 'Fine Arts', type: 'fine-arts', file: 'exact_fine-arts.txt', gridX: 4, gridY: 1 },
-            { name: 'Hackathon', type: 'hackathon', file: 'exact_hackathon.txt', gridX: 1, gridY: 2 }
+            { name: 'Assises du Design', type: 'hackathon', file: 'exact_hackathon.txt', gridX: 1, gridY: 2 },
+            { name: 'Concord\n(2023-2026)', type: 'concord', file: 'exact_concord.txt', gridX: 2, gridY: 2 }
         ];
 
         mainProjects.forEach(project => {

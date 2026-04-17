@@ -33,6 +33,30 @@ class ProjectViewer {
                 { file: 'assets/projects/assembl/styleguide.png', caption: 'Assembl Design System - Style Guide 2021' },
                 { file: 'assets/projects/assembl/topics.png', caption: 'Consultation Themes Interface' },
                 { file: 'assets/projects/assembl/notion.png', caption: 'Product Design Documentation' }
+            ],
+            'fine-arts': [
+                { file: 'jordaneaman-content/images/Art/Canyon.jpg', caption: 'Canyon' },
+                { file: 'jordaneaman-content/images/Art/Celestial Gardens.jpg', caption: 'Celestial Gardens' },
+                { file: 'jordaneaman-content/images/Art/DSC_0172.jpg', caption: 'DSC_0172' },
+                { file: 'jordaneaman-content/images/Art/DSC_0176_1.jpg', caption: 'DSC_0176_1' },
+                { file: 'jordaneaman-content/images/Art/DSC_0181.jpg', caption: 'DSC_0181' },
+                { file: 'jordaneaman-content/images/Art/DSC_0704.JPG', caption: 'DSC_0704' },
+                { file: 'jordaneaman-content/images/Art/DSC_0709.JPG', caption: 'DSC_0709' },
+                { file: 'jordaneaman-content/images/Art/DSC_0712.JPG', caption: 'DSC_0712' },
+                { file: 'jordaneaman-content/images/Art/Figure Study.jpg', caption: 'Figure Study' },
+                { file: 'jordaneaman-content/images/Art/IMG_2570.jpg', caption: 'IMG_2570' },
+                { file: 'jordaneaman-content/images/Art/IMG_2949.jpg', caption: 'IMG_2949' },
+                { file: 'jordaneaman-content/images/Art/IMG_6486.JPG', caption: 'IMG_6486' },
+                { file: 'jordaneaman-content/images/Art/IMG_7114_edited.jpg', caption: 'IMG_7114 (edited)' },
+                { file: 'jordaneaman-content/images/Art/IMG_7114.jpg', caption: 'IMG_7114' },
+                { file: 'jordaneaman-content/images/Art/IMG_9764.JPG', caption: 'IMG_9764' },
+                { file: 'jordaneaman-content/images/Art/infinitum.jpg', caption: 'Infinitum' },
+                { file: 'jordaneaman-content/images/Art/ocean study.jpg', caption: 'Ocean Study' },
+                { file: 'jordaneaman-content/images/Art/Pensive.jpg', caption: 'Pensive' },
+                { file: 'jordaneaman-content/images/Art/Proofofparadise.jpg', caption: 'Proof of Paradise' },
+                { file: 'jordaneaman-content/images/Art/Ripples at dawn.jpg', caption: 'Ripples at Dawn' },
+                { file: 'jordaneaman-content/images/Art/Sons of Eros.jpg', caption: 'Sons of Eros' },
+                { file: 'jordaneaman-content/images/Art/Study-OfWater.jpg', caption: 'Study of Water' }
             ]
         };
     }

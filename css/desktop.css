@@ -21,6 +21,12 @@
     color: #ffffff;
 }
 
+.desktop-icon.dragging {
+    opacity: 0.7;
+    z-index: 1000;
+    cursor: grabbing !important;
+}
+
 .desktop-icon-image {
     width: 32px;
     height: 32px;
@@ -52,21 +58,21 @@
 
 /* Grid layout for icons */
 .desktop-icon[data-grid-x="0"] { left: 10px; }
-.desktop-icon[data-grid-x="1"] { left: 90px; }
-.desktop-icon[data-grid-x="2"] { left: 170px; }
-.desktop-icon[data-grid-x="3"] { left: 250px; }
-.desktop-icon[data-grid-x="4"] { left: 330px; }
-.desktop-icon[data-grid-x="5"] { left: 410px; }
+.desktop-icon[data-grid-x="1"] { left: 110px; }
+.desktop-icon[data-grid-x="2"] { left: 210px; }
+.desktop-icon[data-grid-x="3"] { left: 310px; }
+.desktop-icon[data-grid-x="4"] { left: 410px; }
+.desktop-icon[data-grid-x="5"] { left: 510px; }
 
 .desktop-icon[data-grid-y="0"] { top: 10px; }
-.desktop-icon[data-grid-y="1"] { top: 90px; }
-.desktop-icon[data-grid-y="2"] { top: 170px; }
-.desktop-icon[data-grid-y="3"] { top: 250px; }
-.desktop-icon[data-grid-y="4"] { top: 330px; }
-.desktop-icon[data-grid-y="5"] { top: 410px; }
-.desktop-icon[data-grid-y="6"] { top: 490px; }
-.desktop-icon[data-grid-y="7"] { top: 570px; }
-.desktop-icon[data-grid-y="8"] { top: 650px; }
+.desktop-icon[data-grid-y="1"] { top: 110px; }
+.desktop-icon[data-grid-y="2"] { top: 210px; }
+.desktop-icon[data-grid-y="3"] { top: 310px; }
+.desktop-icon[data-grid-y="4"] { top: 410px; }
+.desktop-icon[data-grid-y="5"] { top: 510px; }
+.desktop-icon[data-grid-y="6"] { top: 610px; }
+.desktop-icon[data-grid-y="7"] { top: 710px; }
+.desktop-icon[data-grid-y="8"] { top: 810px; }
 
 /* Icon types - Using authentic Windows 98 icons */
 .desktop-icon[data-icon-type="folder"] .desktop-icon-image {
@@ -147,7 +153,11 @@
 }
 
 .desktop-icon[data-icon-type="hackathon"] .desktop-icon-image::before {
-    content: '💡'; /* Innovation */
+    content: '💡'; /* Assises du Design */
+}
+
+.desktop-icon[data-icon-type="concord"] .desktop-icon-image {
+    background-image: url('../assets/icons/notepad.png');
 }
 
 .desktop-icon[data-icon-type="obside"] .desktop-icon-image::before {

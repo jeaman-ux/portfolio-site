@@ -8,20 +8,21 @@ class Terminal {
         this.exitBtn = document.getElementById('terminal-exit');
 
         this.projects = [
-            { id: 1, name: 'SennOS at sennder', file: 'exact_sennos.txt' },
-            { id: 2, name: 'Assembl by bluenove', file: 'exact_assembl.txt' },
-            { id: 3, name: 'Djingo City', file: 'exact_djingo-city.txt' },
-            { id: 4, name: 'X-TRACT', file: 'exact_x-tract.txt' },
-            { id: 5, name: 'Zixi Research Lab', file: 'exact_zixi-research-lab.txt' },
-            { id: 6, name: 'Do Tank by CITEO', file: 'exact_owf.txt' },
-            { id: 7, name: "JUST'LA", file: 'exact_just-la.txt' },
-            { id: 8, name: 'IDF Paris Kiosk', file: 'exact_idf-paris-kiosk.txt' },
-            { id: 9, name: "Movin'On HUB - MICHELIN", file: 'exact_obside.txt' },
-            { id: 10, name: 'KmUn Grenoble', file: 'exact_kmun-grenoble.txt' },
-            { id: 11, name: 'Masters Research', file: 'exact_masters-research.txt' },
-            { id: 12, name: 'Graphic Design', file: 'exact_graphic-design.txt' },
-            { id: 13, name: 'Fine Arts', file: 'exact_fine-arts.txt' },
-            { id: 14, name: 'Hackathon', file: 'exact_hackathon.txt' }
+            { id: 1, name: 'Concord (2023-2026)', file: 'exact_concord.txt' },
+            { id: 2, name: 'SennOS at sennder (2021-2023)', file: 'exact_sennos.txt' },
+            { id: 3, name: 'Assembl by bluenove (2019-2021)', file: 'exact_assembl.txt' },
+            { id: 4, name: 'Djingo City', file: 'exact_djingo-city.txt' },
+            { id: 5, name: 'X-TRACT', file: 'exact_x-tract.txt' },
+            { id: 6, name: 'Zixi Research Lab', file: 'exact_zixi-research-lab.txt' },
+            { id: 7, name: 'Do Tank by CITEO', file: 'exact_owf.txt' },
+            { id: 8, name: "JUST'LA", file: 'exact_just-la.txt' },
+            { id: 9, name: 'IDF Paris Kiosk', file: 'exact_idf-paris-kiosk.txt' },
+            { id: 10, name: "Movin'On HUB - MICHELIN", file: 'exact_obside.txt' },
+            { id: 11, name: 'KmUn Grenoble', file: 'exact_kmun-grenoble.txt' },
+            { id: 12, name: 'Masters Research', file: 'exact_masters-research.txt' },
+            { id: 13, name: 'Graphic Design', file: 'exact_graphic-design.txt' },
+            { id: 14, name: 'Fine Arts', file: 'exact_fine-arts.txt' },
+            { id: 15, name: 'Assises du Design', file: 'exact_hackathon.txt' }
         ];
 
         this.commandHistory = [];
