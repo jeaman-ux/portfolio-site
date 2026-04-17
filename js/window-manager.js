@@ -53,12 +53,25 @@ class WindowManager {
             <div class="window-content" id="${window.id}-content">
                 ${window.content}
             </div>
+            ${window.resizable ? `
+                <div class="window-resize-handle n" data-direction="n"></div>
+                <div class="window-resize-handle s" data-direction="s"></div>
+                <div class="window-resize-handle e" data-direction="e"></div>
+                <div class="window-resize-handle w" data-direction="w"></div>
+                <div class="window-resize-handle ne" data-direction="ne"></div>
+                <div class="window-resize-handle nw" data-direction="nw"></div>
+                <div class="window-resize-handle se" data-direction="se"></div>
+                <div class="window-resize-handle sw" data-direction="sw"></div>
+            ` : ''}
         `;
 
         this.container.appendChild(windowEl);
 
         // Add event listeners
         this.attachWindowEvents(window.id);
+        if (window.resizable) {
+            this.attachResizeEvents(window.id);
+        }
         this.addToTaskbar(window);
     }
 
@@ -112,6 +125,84 @@ class WindowManager {
         // Focus on click
         windowEl.addEventListener('mousedown', () => {
             this.focusWindow(windowId);
+        });
+    }
+
+    attachResizeEvents(windowId) {
+        const windowEl = document.getElementById(windowId);
+        const resizeHandles = windowEl.querySelectorAll('.window-resize-handle');
+
+        resizeHandles.forEach(handle => {
+            handle.addEventListener('mousedown', (e) => {
+                e.stopPropagation();
+
+                const window = this.getWindow(windowId);
+                if (window.maximized) return;
+
+                const direction = handle.dataset.direction;
+                const startX = e.clientX;
+                const startY = e.clientY;
+                const startWidth = windowEl.offsetWidth;
+                const startHeight = windowEl.offsetHeight;
+                const startLeft = windowEl.offsetLeft;
+                const startTop = windowEl.offsetTop;
+
+                const minWidth = 200;
+                const minHeight = 150;
+
+                const handleMouseMove = (e) => {
+                    const deltaX = e.clientX - startX;
+                    const deltaY = e.clientY - startY;
+
+                    let newWidth = startWidth;
+                    let newHeight = startHeight;
+                    let newLeft = startLeft;
+                    let newTop = startTop;
+
+                    // Handle horizontal resizing
+                    if (direction.includes('e')) {
+                        newWidth = Math.max(minWidth, startWidth + deltaX);
+                    } else if (direction.includes('w')) {
+                        const potentialWidth = startWidth - deltaX;
+                        if (potentialWidth >= minWidth) {
+                            newWidth = potentialWidth;
+                            newLeft = startLeft + deltaX;
+                        }
+                    }
+
+                    // Handle vertical resizing
+                    if (direction.includes('s')) {
+                        newHeight = Math.max(minHeight, startHeight + deltaY);
+                    } else if (direction.includes('n')) {
+                        const potentialHeight = startHeight - deltaY;
+                        if (potentialHeight >= minHeight) {
+                            newHeight = potentialHeight;
+                            newTop = Math.max(0, startTop + deltaY);
+                        }
+                    }
+
+                    windowEl.style.width = newWidth + 'px';
+                    windowEl.style.height = newHeight + 'px';
+                    windowEl.style.left = newLeft + 'px';
+                    windowEl.style.top = newTop + 'px';
+
+                    // Update window object
+                    window.width = newWidth;
+                    window.height = newHeight;
+                    window.x = newLeft;
+                    window.y = newTop;
+                };
+
+                const handleMouseUp = () => {
+                    document.removeEventListener('mousemove', handleMouseMove);
+                    document.removeEventListener('mouseup', handleMouseUp);
+                };
+
+                document.addEventListener('mousemove', handleMouseMove);
+                document.addEventListener('mouseup', handleMouseUp);
+
+                this.focusWindow(windowId);
+            });
         });
     }
 

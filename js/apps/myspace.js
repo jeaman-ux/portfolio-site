@@ -638,7 +638,7 @@ class MySpaceApp {
                                 <!-- Contact Box -->
                                 <div class="myspace-contact-box">
                                     <div class="myspace-contact-title">Contacting Jordan</div>
-                                    <a href="#" class="myspace-contact-link">Send Message</a>
+                                    <a href="mailto:jordaneaman@gmail.com" class="myspace-contact-link">Send Message</a>
                                     <a href="#" class="myspace-contact-link">Forward to Friend</a>
                                     <a href="#" class="myspace-contact-link">Add to Friends</a>
                                     <a href="#" class="myspace-contact-link">Add to Favorites</a>
@@ -723,8 +723,8 @@ class MySpaceApp {
                                             <td>Digital infrastructures, Design applied to policy-making, Smart Cities</td>
                                         </tr>
                                         <tr>
-                                            <td class="myspace-label">Past Work:</td>
-                                            <td>Flying trapeze performer & acrobat (2011-2014), Co-founder of FloWhip (2012-2015)</td>
+                                            <td class="myspace-label">Community:</td>
+                                            <td>Secretary at Red Star Club Montreuil (diving/acrobatics), Member of Art Nunz International Contemporary Arts Collective</td>
                                         </tr>
                                     </table>
                                 </div>
@@ -753,27 +753,27 @@ class MySpaceApp {
                                 <!-- Friend Space -->
                                 <div class="myspace-friends-box">
                                     <div class="myspace-section-title">Jordan's Friend Space (Top 5)</div>
-                                    <div class="myspace-section-content" style="margin-bottom: 8px;">Jordan has <strong>24 friends</strong>.</div>
+                                    <div class="myspace-section-content" style="margin-bottom: 8px;">Jordan has <strong>500+ friends</strong>.</div>
                                     <div class="myspace-friends-grid">
                                         <div class="myspace-friend">
                                             <div class="myspace-friend-photo">[Photo]</div>
-                                            <div class="myspace-friend-name">Tom</div>
+                                            <div class="myspace-friend-name">Marc</div>
                                         </div>
                                         <div class="myspace-friend">
                                             <div class="myspace-friend-photo">[Photo]</div>
-                                            <div class="myspace-friend-name">Emily</div>
+                                            <div class="myspace-friend-name">Sophie</div>
                                         </div>
                                         <div class="myspace-friend">
                                             <div class="myspace-friend-photo">[Photo]</div>
-                                            <div class="myspace-friend-name">Kelly</div>
+                                            <div class="myspace-friend-name">Alex</div>
                                         </div>
                                         <div class="myspace-friend">
                                             <div class="myspace-friend-photo">[Photo]</div>
-                                            <div class="myspace-friend-name">Shelby</div>
+                                            <div class="myspace-friend-name">Claire</div>
                                         </div>
                                         <div class="myspace-friend">
                                             <div class="myspace-friend-photo">[Photo]</div>
-                                            <div class="myspace-friend-name">Vicky</div>
+                                            <div class="myspace-friend-name">Thomas</div>
                                         </div>
                                     </div>
                                     <div class="myspace-view-all">
@@ -789,12 +789,12 @@ class MySpaceApp {
                                         <div class="myspace-comment-header">
                                             <div class="myspace-comment-photo"></div>
                                             <div class="myspace-comment-info">
-                                                <div class="myspace-comment-name">Emily</div>
-                                                <div class="myspace-comment-date">Jul 28 2009 9:03 PM</div>
+                                                <div class="myspace-comment-name">Marc (Concord)</div>
+                                                <div class="myspace-comment-date">Feb 15 2024 4:32 PM</div>
                                             </div>
                                         </div>
                                         <div class="myspace-comment-text">
-                                            Fillster always offers tons of cool and free layouts in 9 categories and their portal with your <a href="#">HTML Codes</a> to choose from. It's so easy to create and customize Myspace 1.0 & 2.0 with your Premade Layouts.
+                                            Your work on the design system has been transformative. The AI workflow adoption is already saving the team hours each week!
                                         </div>
                                     </div>
 
@@ -802,12 +802,25 @@ class MySpaceApp {
                                         <div class="myspace-comment-header">
                                             <div class="myspace-comment-photo"></div>
                                             <div class="myspace-comment-info">
-                                                <div class="myspace-comment-name">Hannah</div>
-                                                <div class="myspace-comment-date">Jul 28 2009 9:27 PM</div>
+                                                <div class="myspace-comment-name">Sophie (Bluenove)</div>
+                                                <div class="myspace-comment-date">Jan 8 2024 11:15 AM</div>
                                             </div>
                                         </div>
                                         <div class="myspace-comment-text">
-                                            Fillster has a huge selection of free <a href="#">Myspace Backgrounds</a>. I feel that this is the right HTML code source for all Myspace stuff needs. Thank you!
+                                            Still thinking about the collective intelligence platform work we did together. Your approach to service design really pushed the boundaries!
+                                        </div>
+                                    </div>
+
+                                    <div class="myspace-comment">
+                                        <div class="myspace-comment-header">
+                                            <div class="myspace-comment-photo"></div>
+                                            <div class="myspace-comment-info">
+                                                <div class="myspace-comment-name">Alex (Art Nunz)</div>
+                                                <div class="myspace-comment-date">Dec 22 2023 7:48 PM</div>
+                                            </div>
+                                        </div>
+                                        <div class="myspace-comment-text">
+                                            Great seeing you at the collective's latest show. Your perspective on design extending into policy and urban systems is always inspiring.
                                         </div>
                                     </div>
 
