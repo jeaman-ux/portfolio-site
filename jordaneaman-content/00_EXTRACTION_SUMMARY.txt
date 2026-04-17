@@ -1,0 +1,83 @@
+JORDAN EAMAN PORTFOLIO - CONTENT EXTRACTION COMPLETE
+====================================================
+
+Extraction Date: January 15, 2026
+Source Website: https://www.jordaneaman.com/
+
+OVERVIEW:
+All content from your Wix portfolio site has been successfully extracted and organized into this folder structure for use in building your new portfolio site.
+
+═══════════════════════════════════════════════════════════
+
+TEXT CONTENT - 17 FILES
+Located in: /text/
+
+✓ 00_homepage.txt - Main landing page content
+✓ 00_README.txt - Index of all text files
+
+PROJECTS EXTRACTED (14 TOTAL):
+✓ 01_project_sennos.txt - SennOS at Sennder (2021-present)
+✓ 02_project_assembl.txt - Assembl by Bluenove (2019-2021)
+✓ 03_project_djingo_city.txt - Djingo City (2018)
+✓ 04_project_xtract.txt - X-Tract (2019)
+✓ 05_project_zixi_research_lab.txt - Zixi Research Lab (2018)
+✓ 06_project_mapping_urban_interface.txt - Urban Interface
+✓ 07_project_do_tank_citeo.txt - Do Tank by CITEO (2020)
+✓ 08_project_justla.txt - Just'La
+✓ 09_project_idf_paris_kiosk.txt - IDF Paris Kiosk (MOMO)
+✓ 10_project_movinon_hub_michelin.txt - Movin'On HUB Michelin
+✓ 11_about_experience.txt - About page & experience
+✓ 12_masters_research_approaching_curve.txt - Masters thesis
+✓ 13_project_kmun_grenoble.txt - KmUn Grenoble
+✓ 14_project_assise_du_design.txt - Assise du Design
+✓ 15_project_graphic_design.txt - Graphic Design gallery
+✓ 16_project_fine_arts.txt - Fine Arts gallery
+
+═══════════════════════════════════════════════════════════
+
+IMAGE CONTENT - 166+ FILES
+Located in: /images/
+
+ORGANIZATION:
+✓ Art/ - 27 fine art pieces
+✓ Graphism/ - 12 graphic design works
+✓ Compressed/ - 36 compressed/optimized images
+✓ Site Files/ - 110 website images (project screenshots, logos, etc.)
+
+═══════════════════════════════════════════════════════════
+
+NEXT STEPS FOR NEW PORTFOLIO:
+
+1. CONTENT REVIEW
+   - Review all text files for accuracy
+   - Update any outdated information
+   - Add any missing project details
+
+2. IMAGE ORGANIZATION
+   - Review and organize images by project
+   - Identify which images belong to which projects
+   - Optimize images for web if needed
+
+3. DESIGN & BUILD
+   - Choose your new platform/framework
+   - Design new layout and structure
+   - Implement using extracted content
+
+═══════════════════════════════════════════════════════════
+
+CONTACT INFORMATION:
+Email: JordanEAman@gmail.com
+Social: Medium, LinkedIn
+
+COPYRIGHT:
+© 2020 Jordan AMAN (update year as needed)
+
+═══════════════════════════════════════════════════════════
+
+NOTES:
+- All major project pages have been documented
+- Text content includes project descriptions, timelines, roles, and methodologies
+- Images are manually downloaded and organized by category
+- Ready for new portfolio development
+
+Good luck with your new portfolio site!

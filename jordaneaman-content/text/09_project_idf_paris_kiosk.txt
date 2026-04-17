@@ -1,0 +1,26 @@
+IDF PARIS KIOSK - MOMO
+=======================
+
+PROJECT TITLE:
+MOMO - Urban news kiosk redesign for Paris Île-de-France
+
+CLIENT:
+Paris Île-de-France (IDF) regional council, in partnership with Valérie Pécresse's office
+
+DESIGN CHALLENGE:
+The project tackled reimagining classical Parisian newsstands with the central question: "How can we foster a unique, local, social spot that connects citizen and information flows?"
+
+METHODOLOGY:
+The team conducted informal interviews with consumers and kiosk attendants to understand stakeholder needs before beginning the design process.
+
+SOLUTION: MOMO
+The designers created an innovative kiosk concept featuring:
+- Spatial sketches showing scene views, floor plans, and aerial perspectives
+- An interaction mapping diagram illustrating user engagement patterns
+- Design focused on fostering connection between citizens and local information
+
+DELIVERABLES:
+The page showcases spatial sketches (including kioskScene, kioskFloorplan, kioskCaisse, and kioskAerialView) and a comprehensive interaction map visualizing how people move through and use the space.
+
+PROJECT DESCRIPTION:
+This project demonstrates user-centered design methodology applied to public infrastructure, balancing functional information distribution with social gathering spaces.

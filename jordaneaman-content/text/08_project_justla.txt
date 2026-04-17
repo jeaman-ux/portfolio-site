@@ -1,0 +1,20 @@
+JUST'LA
+=======
+
+PROJECT TITLE:
+Just'La
+
+TAGLINE:
+"Connecting consumers and producers in rural France"
+
+LOCATION FOCUS:
+Toulouse region and surrounding countryside areas
+
+PROJECT SCOPE:
+The team investigated local product distribution habits and identified three core opportunities: reducing commuting time and distance, optimizing physical product placement, and strengthening community connections between rural producers and urban consumers.
+
+DESIGN PROCESS:
+Eaman developed user scenarios aligned with the app's primary functions, created a detailed UX map, and prototyped seven essential interface screens. The approach ensured the solution effectively addressed concerns for both producer and consumer user groups while optimizing their respective experiences.
+
+PUBLIC PRESENTATION & VALIDATION:
+The project received sponsorship from Université Paris-Saclay and the Paris Region Île de France. The team later presented at Laval Virtual for two days to assess user interest, test solution efficiency, and explore investment opportunities. The project concluded without further development commitments.

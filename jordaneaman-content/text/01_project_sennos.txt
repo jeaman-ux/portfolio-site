@@ -1,0 +1,37 @@
+SENNOS AT SENNDER
+==================
+
+PROJECT TITLE:
+SennOS - Supporting Sennder's shippers, carriers and operators with modern freight logistics software
+
+TIMELINE & ROLE:
+2021 - present
+UX, UI, service design, product design, prototyping, user research, user testing, product strategy
+
+PROJECT OVERVIEW:
+Work on improving shipper and carrier experiences across Sennder's main software platforms, with particular focus on carrier shipment marketplace services and shipper tracking tools.
+
+SHIPPERS (OTTERS SOFTWARE):
+- Tool for SMBs to program and track shipments with simplified order creation
+- Enterprise clients access bulk order creation and shipping analytics
+- Focus: reducing complexity, providing visibility and clarity, creating self-explanatory interactions
+
+Notable Projects:
+- Notification system UX/UI
+- Dashboard research and redesign
+- Tracking system and interface research
+- Technical spec creation
+
+CARRIERS (ORCAS SOFTWARE):
+- Platform for carriers to bid, book shipments, and plan/dispatch orders
+- Supports marketplace experience of brokerage services
+- Approach uses service design methods: system mapping, service blueprints, customer experience flows, interface interactions
+- Emphasis on cross-functional partnership with engineering and product management
+
+VISUAL ELEMENTS:
+- Dashboard interfaces and notification systems
+- Tracking interface designs
+- Marketplace order display and viewing features
+
+EXTERNAL LINK:
+www.sennder.com

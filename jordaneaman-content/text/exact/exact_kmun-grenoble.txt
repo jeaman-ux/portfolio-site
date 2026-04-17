@@ -1,0 +1,23 @@
+KmUn Grenoble | Portfolio
+top of pageWorkAbout Me + XPkm un.Responsible mobility through your daily commute. In order to create sustainable change in the local mobility chain of Grenoble, FR, it became evident to concretely valorize every kilometer traveled through soft mobilities (pedestrian, scooter, bike, carpooling, public transport, ...).
+Concerning daily transit, Km Un encourages commuters to travel in an eco-responsible way. Every time he makes this choice, his interest is twofold:
+Individual: Each kilometer traveled awards the user credits that can be exchanged for services (transit ticket, bicycle repair package, ...) or Cairn (local currency of the territory);
+Collective The community undertakes, in return, to invest in new ways to strengthen eco-friendly travel.
+It is a virtuous circle: the more the user moves in an eco-responsible way, the more the community invests in the dedicated infrastructures. And the more the community invests, the easier it will be to move in an environmentally responsible way.This project, conceived in partnership with CEA and Orange Telecom, was an opportunity to study the local mobility ecosystem, and engage citizens in the change we envisioned in the territory. The final deliverable was a magazine explaining the concept details, to be diffused within the company.
+​
+The most important aspects of our concept were durability, sustainability, and fidelity over time in the territory to create lasting change. Continue reading below to discover the user journey.
+​
+​
+Ideation
+​
+This project was part of a week-long sprint with designers and business managers from Orange. They provided us with base user research with which to begin our investigation of the local ecosystem. following a design sprint methodology of rapid ideation, we were able to create 3 mock-ups of concepts, before finalizing KmUn.
+COMMUTES, DISTANCES AND COMMITMENT
+An equal scale of kilometer values.
+In the Grenoble Metropolitan area, we identified 3 types of users: A citizen living in the city center of Grenoble, one who lives on the outskirts of the city, and finally, one who lives in the rural countryside.
+This distinction is important because the number of kilometers traveled can be multiplied by 10 depending on where you live and where you work.
+For example, a resident of Grésivaudan working in Meylan will travel a much longer distance than those who live in the city center and work in Villeneuve. In order to make everyone's effort worthwhile, we devised a kilometer rate.
+For example, the "pedestrian" kilometer has a greater value than that of one traveled by tram, which is itself even higher than that of the "carpooled" kilometer. Still from an equality point of view, the concept of commitment was important to us - we did not want to penalize the user who would travel only 2 or 3 km per day, compared to a user who has to travel a greater distance.
+Independent of the number of kilometers traveled, the user can validate a "Km" contract by indicating the number of kilometers they will travel in a given period. The achievement of objectives then gives the right to a specific bonus.
+​
+Without the specific technical details, the image on the left is an illustration I made to show the user journey over a couple days of application use. Back
+© 2020 Jordan AMAN JordanEAman@gmail.combottom of page

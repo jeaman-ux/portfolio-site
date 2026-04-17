@@ -1,0 +1,26 @@
+KMUN GRENOBLE
+==============
+
+PROJECT TITLE:
+KmUn Grenoble - Mobility incentive project
+
+LOCATION:
+Grenoble, France
+
+PROJECT OVERVIEW:
+KmUn encourages sustainable commuting in Grenoble by rewarding eco-responsible travel choices. Users earn credits for walking, biking, carpooling, and using public transit—credits redeemable for services or local currency.
+
+CORE CONCEPT:
+The system creates a virtuous cycle: "the more the user moves in an eco-responsible way, the more the community invests in the dedicated infrastructures."
+
+KEY FEATURES:
+- Differentiated kilometer values based on transportation mode (pedestrian travel worth more than tram, which exceeds carpooled distance)
+- Commitment-based approach preventing penalties for shorter daily commutes
+- Partnership development with CEA and Orange Telecom
+- Multi-demographic consideration accounting for urban, suburban, and rural commuters
+
+DELIVERABLES:
+The final output was a magazine explaining the concept, distributed within the partner company to drive awareness and adoption in the territory.
+
+PROJECT EMPHASIS:
+The design emphasizes sustainability, durability, and long-term behavioral change within the local mobility ecosystem.

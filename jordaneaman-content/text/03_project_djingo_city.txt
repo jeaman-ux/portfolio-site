@@ -1,0 +1,31 @@
+DJINGO CITY
+============
+
+PROJECT TITLE:
+Djingo City
+
+TAGLINE:
+"The 'on-the-go' assistant made for urban living"
+
+YEAR & DISCIPLINES:
+2018 | UX, UI, product design, service design, prototyping
+
+CLIENT/CONTEXT:
+Partnership between Orange Telecom and Strate École de Design
+
+OVERVIEW:
+The designers conceptualized Djingo, Orange's virtual assistant, reimagined for mobile urban environments. The project explored how an AI-powered assistant could enhance citizen experiences across multiple city-based scenarios.
+
+PROCESS:
+
+Ideation Phase:
+The team developed a board game as an ideation tool generating concept ideas addressing modern urban challenges including lifestyle, accessibility, spaces, systems, and mobility. The game combined scenario cards ("What if...," "Perhaps there is...") with future-focused narratives, enabling collaborative brainstorming producing "hundreds of different combinations."
+
+Concept Development:
+Four integrated sub-applications divided the system: Street, Secure, Service, and Sense—each targeting distinct aspects of urban citizen interaction.
+
+KEY INSIGHTS:
+The proposal integrated physical infrastructure with AI neural networks, proposing that "as the neural network improves, the whole system becomes more sophisticated," making the infrastructure essential for urban planners.
+
+VISUAL ASSETS PRESENT:
+Multiple interface mockups showing mobile app screens for the four Djingo City modules, alongside conceptual sketches and ideation board game imagery documenting the design exploration process.

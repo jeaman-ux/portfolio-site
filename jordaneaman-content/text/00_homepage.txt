@@ -1,0 +1,36 @@
+JORDAN E AMAN - PORTFOLIO HOMEPAGE
+=====================================
+
+TAGLINE:
+Let's build a more enabled world!
+
+BIO:
+Fullstack Designer, working in Service Design, UX, User Research, UI, Agile, and Product Management, based in Paris, France
+
+NAVIGATION:
+- Work
+- About Me + XP
+
+PROJECTS LISTED:
+1. SennOS at sennder
+2. Assembl by bluenove
+3. Do Tank by CITEO
+4. Assise National du Design
+5. Movin'On HUB - MICHELIN
+6. Djingo City
+7. Zixi research lab
+8. KmUn Grenoble
+9. Graphic Design
+10. IDF Paris Kiosk
+11. Urban Interface
+12. FINE ART
+13. The Approaching Curve
+14. X-TRACT
+15. JUST'LA
+
+CONTACT INFORMATION:
+Email: JordanEAman@gmail.com
+Social: Medium, LinkedIn
+
+COPYRIGHT:
+© 2020 Jordan AMAN

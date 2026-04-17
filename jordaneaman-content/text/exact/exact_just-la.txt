@@ -1,0 +1,10 @@
+Just'La | Portfolio
+top of pageWorkAbout Me + XPJust'LaConnecting consumers and producers in rural FranceThe Just'La project began with an investigation into product distribution habits of local producers in the french countryside surrounding metropolitan regions. For precision, we focused on the region of Toulouse and its surrounding area.
+After speaking with consumers both in and out of the city, producers in city farmer's markets, and creating a mapping of local business product distribution, we were able to identify three central opportunities: commuting time and distance, physical product placement, and community connection.
+​
+I began my production of the service by creating a series of user scenarios, built around the main functionalities of the app and service. I then created a detailed UX map of the application structure (pictured left). At this stage we were able to identify how specifically our solution answered concerns of both producers and consumers, as well as optimize the experience for both populations. Iterations were made to this design and I proceeded to make a mock-up of 7 essential screens to the service interface.
+​
+The final delivery of this project was a public presentation sponsored by the Université Paris-Saclay and the Paris Region Île de France, after which we presented at Laval Virtual for two days, to investigate user interest, efficiency of our solution, and meet possible investors. The project has since ended without further commitment.
+​
+​Back
+© 2020 Jordan AMAN JordanEAman@gmail.combottom of page

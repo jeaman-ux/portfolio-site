@@ -1,0 +1,12 @@
+Djingo City | Portfolio
+top of pageWorkAbout Me + XPDjingo CityThe “on-the-go” assistant made for urban living 2018 : UX, UI, product design, service design, prototypingThrough a partnership between Orange Telecom and Strate École de Design, my partner and I had the opportunity to imagine Djingo, Orange’s new virtual assistant, “on-the-go.”
+​
+​IdeationAs part of this project, we developed a game to be used in ideation, to help generate concept ideas for modern problems within the Orange Telecom ecosystem: including Lifestyle, Access, Spaces, Systems, Mobility, Ownership, Sharing, Data, Identity, and Blurred Lines between home and office, private and public, etc.
+​
+Using team generated cards defining possible environmental scenarios like "What if ...", "Perhaps there is a ...", and a description of the future in which this product will exist, we enabled the Orange design team to generate a maximum of their own ideas after delivery of our final concept.
+​
+With hundreds of different combinations of cards and positions on the board, ideas start flying when you get a combination like "What if smartphones only last 5 more years? Perhaps there is another interface on which we all communicate in a future that is citizen-centric. With this in mind, how can we rethink ownership?" Concept Sketches:ConceptDjingo City is an attempt at taking Djingo virtual assistant out of the home and into the urban sphere through a collection of sub-applications of the native Djingo mobile app that manages and augments different aspects of a citizen’s life - From entertainment to security, to workflow, to emotional connections.
+This proposal came in four parts, separated into each universe inside the DC app - Street, Secure, Service, and Sense.
+​
+Our proposal is about improving the citizen experience and interactions around a city, but beyond that, we were hoping to take advantage of the AI powering the virtual assistant and bring it into the city as well. As the neural network of the system improves, the whole system becomes more sophisticated. This would make the physical network of infrastructural interventions and data management indispensable to city planners and urban engineers looking into the future.Interface Examples:Back
+© 2020 Jordan AMAN JordanEAman@gmail.combottom of page

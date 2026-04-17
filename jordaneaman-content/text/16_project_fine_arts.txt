@@ -1,0 +1,14 @@
+FINE ARTS
+==========
+
+PROJECT TYPE:
+Portfolio gallery page
+
+NOTE:
+This page appears to be primarily a visual gallery of fine art work. The page contains extensive image content that couldn't be extracted via automated fetching.
+
+URL:
+https://www.jordaneaman.com/fine-arts
+
+RECOMMENDATION:
+This page should be manually reviewed or accessed through the Wix editor to extract all visual content and any accompanying descriptions.

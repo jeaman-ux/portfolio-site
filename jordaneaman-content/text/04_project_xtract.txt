@@ -1,0 +1,35 @@
+X-TRACT
+=======
+
+PROJECT TITLE:
+X-Tract
+
+TAGLINE:
+"Connecting skiers and first responders"
+
+YEAR & DISCIPLINES:
+2019 | UX, UI, product design, prototyping
+
+DURATION:
+Month-long mission
+
+CLIENT:
+X-Fabric
+
+OBJECTIVE:
+Create first demo prototype for X-Tract, a first-aid and response application
+
+PROJECT DESCRIPTION:
+The designer worked with the X-Fabric team across 5 week-long sprints to rapidly prototype both the mobile app and operator back-office.
+
+PROCESS:
+1. Product benchmark and audit of existing graphic content
+2. Wireframing (sketched collaboratively in an afternoon)
+3. Creating graphic chart and V1 user interface
+4. Iterative refinements over 2 weeks
+5. Final product pitch and user testing plan
+
+VISUAL ASSETS PRESENT:
+- A desktop interface mockup (600×314px)
+- Mobile app design (600×450px)
+- A flyer or promotional material (600×400px)

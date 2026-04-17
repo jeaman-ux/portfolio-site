@@ -1,0 +1,37 @@
+ASSEMBL BY BLUENOVE
+===================
+
+PROJECT TITLE:
+Assembl - A collective intelligence platform supporting community discussion and idea prioritization
+
+DESCRIPTION:
+The platform facilitates "six native applications for steering collective intelligence initiatives" where "communities discuss, debate, and prioritise ideas." It serves both public/private sector clients and functions as the primary analysis tool for consultants.
+
+TIMELINE & ROLE:
+2019-2021
+UX, UI, service design, product design, prototyping, user research, testing, product ownership
+
+KEY RESPONSIBILITIES:
+- Piloted all design activities at Bluenove Paris (October 2019 - May 2020)
+- Delivered MVP of two new platform modules
+- Implemented industrialized CMS
+- Redesigned entire back-office
+- Served as design lead and scrum product owner simultaneously
+
+PROCESS & METHODOLOGY:
+
+Service Design:
+Separated existing platform into "mono-functional applications to better understand how to improve the participant experience," emphasizing communication optimization between participants and communities.
+
+Design System:
+Built modular Assembl Design System spanning "Figma and Storybook" to support open-source vision and enable communities to develop custom modules.
+
+VISUAL ASSETS PRESENT:
+- Service blueprint diagram
+- Inscription/registration flow wireframe
+- Design system components (Figma/Storybook examples)
+- Five interface screenshots showing moderation, back-office, and metrics dashboards
+- Tool icons (Figma, Notion, Jira, WordPress, Elementor, Crowdin, Medium)
+
+OUTCOME:
+Delivered comprehensive design specifications and prototypes for subsequent implementation across development teams over one year.
