@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function showWelcomeMessage() {
     const windowId = windowManager.createWindow({
-        title: 'Welcome to Windows 98',
+        title: 'Welcome to Jordan\'s Portfolio',
         width: 400,
         height: 250,
         content: `
@@ -34,7 +34,7 @@ function showWelcomeMessage() {
                     <div>
                         <h3 style="margin: 0 0 12px 0; color: #000080;">Welcome!</h3>
                         <p style="margin: 0 0 8px 0; line-height: 1.5;">
-                            Jordan Design Portfolio 2026 - An interactive portfolio presented as a Windows 98 desktop experience.
+                            Jordan Design Portfolio 2026 - An interactive portfolio experience presented as a Windows 98 desktop. Explore to discover my work!
                         </p>
                         <p style="margin: 0 0 8px 0; line-height: 1.5;">
                             <strong>Double-click</strong> any project icon on the desktop to view the full project details.
