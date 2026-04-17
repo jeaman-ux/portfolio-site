@@ -5,6 +5,7 @@ class StartMenu {
         this.startButton = document.getElementById('start-button');
         this.startMenu = document.getElementById('start-menu');
         this.programsSubmenu = document.getElementById('programs-submenu');
+        this.gamesSubmenu = document.getElementById('games-submenu');
         this.isOpen = false;
 
         this.init();
@@ -26,6 +27,8 @@ class StartMenu {
 
                 if (action === 'programs') {
                     this.showProgramsSubmenu();
+                } else if (action === 'games') {
+                    this.showGamesSubmenu();
                 } else if (action === 'shutdown') {
                     this.showShutdownDialog();
                 } else if (action === 'run') {
@@ -44,6 +47,13 @@ class StartMenu {
                     this.showProgramsSubmenu();
                 });
             }
+
+            // Games submenu hover
+            if (item.dataset.action === 'games') {
+                item.addEventListener('mouseenter', () => {
+                    this.showGamesSubmenu();
+                });
+            }
         });
 
         // Programs submenu items
@@ -58,20 +68,65 @@ class StartMenu {
             });
         });
 
+        // Games submenu items
+        const gameItems = this.gamesSubmenu.querySelectorAll('.start-menu-item');
+        gameItems.forEach(item => {
+            item.addEventListener('click', (e) => {
+                e.stopPropagation();
+                const app = item.dataset.app;
+                if (app) {
+                    this.launchApp(app);
+                    this.close();
+                }
+            });
+        });
+
         // Close menu on outside click
         document.addEventListener('click', (e) => {
             if (!this.startMenu.contains(e.target) &&
                 !this.programsSubmenu.contains(e.target) &&
+                !this.gamesSubmenu.contains(e.target) &&
                 e.target !== this.startButton &&
                 !this.startButton.contains(e.target)) {
                 this.close();
             }
         });
 
-        // Close submenus when leaving menu area
-        this.startMenu.addEventListener('mouseleave', () => {
-            this.programsSubmenu.style.display = 'none';
+        // Close submenus when leaving menu area - but with delay to allow moving to submenu
+        let submenuTimeout;
+        this.startMenu.addEventListener('mouseleave', (e) => {
+            // Check if mouse is moving towards a submenu
+            const movingToSubmenu =
+                e.relatedTarget === this.programsSubmenu ||
+                this.programsSubmenu.contains(e.relatedTarget) ||
+                e.relatedTarget === this.gamesSubmenu ||
+                this.gamesSubmenu.contains(e.relatedTarget);
+
+            if (!movingToSubmenu) {
+                submenuTimeout = setTimeout(() => {
+                    this.programsSubmenu.style.display = 'none';
+                    this.gamesSubmenu.style.display = 'none';
+                }, 300);
+            }
         });
+
+        // Keep submenus open when hovering over them
+        const keepSubmenuOpen = (submenu) => {
+            submenu.addEventListener('mouseenter', () => {
+                clearTimeout(submenuTimeout);
+            });
+            submenu.addEventListener('mouseleave', (e) => {
+                // Don't close if mouse is going back to start menu
+                if (!this.startMenu.contains(e.relatedTarget)) {
+                    setTimeout(() => {
+                        submenu.style.display = 'none';
+                    }, 100);
+                }
+            });
+        };
+
+        keepSubmenuOpen(this.programsSubmenu);
+        keepSubmenuOpen(this.gamesSubmenu);
     }
 
     toggle() {
@@ -90,14 +145,26 @@ class StartMenu {
     close() {
         this.startMenu.style.display = 'none';
         this.programsSubmenu.style.display = 'none';
+        this.gamesSubmenu.style.display = 'none';
         this.isOpen = false;
     }
 
     showProgramsSubmenu() {
         const rect = this.startMenu.getBoundingClientRect();
         this.programsSubmenu.style.left = rect.right + 'px';
-        this.programsSubmenu.style.bottom = '28px';
+        this.programsSubmenu.style.top = rect.top + 'px';
+        this.programsSubmenu.style.bottom = 'auto';
         this.programsSubmenu.style.display = 'block';
+        this.gamesSubmenu.style.display = 'none';
+    }
+
+    showGamesSubmenu() {
+        const rect = this.startMenu.getBoundingClientRect();
+        this.gamesSubmenu.style.left = rect.right + 'px';
+        this.gamesSubmenu.style.top = rect.top + 'px';
+        this.gamesSubmenu.style.bottom = 'auto';
+        this.gamesSubmenu.style.display = 'block';
+        this.programsSubmenu.style.display = 'none';
     }
 
     launchApp(appName) {
@@ -115,6 +182,21 @@ class StartMenu {
             case 'explorer':
                 if (window.explorerApp) {
                     window.explorerApp.open();
+                }
+                break;
+            case 'snake':
+                if (window.snakeApp) {
+                    window.snakeApp.open();
+                }
+                break;
+            case 'breakout':
+                if (window.breakoutApp) {
+                    window.breakoutApp.open();
+                }
+                break;
+            case 'spaceinvaders':
+                if (window.spaceInvadersApp) {
+                    window.spaceInvadersApp.open();
                 }
                 break;
         }

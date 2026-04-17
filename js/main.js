@@ -54,7 +54,7 @@ function showWelcomeMessage() {
                     </span>
                 </div>
                 <div style="text-align: right;">
-                    <button class="dialog-button" onclick="windowManager.closeWindow('${windowId}')">
+                    <button class="dialog-button" id="welcome-ok-btn">
                         OK
                     </button>
                 </div>
@@ -62,11 +62,19 @@ function showWelcomeMessage() {
         `
     });
 
-    // Center the welcome window
+    // Center the welcome window and attach event handler
     const windowEl = document.getElementById(windowId);
     if (windowEl) {
         windowEl.style.left = (window.innerWidth / 2 - 200) + 'px';
         windowEl.style.top = (window.innerHeight / 2 - 175) + 'px';
+
+        // Attach OK button handler
+        const okBtn = windowEl.querySelector('#welcome-ok-btn');
+        if (okBtn) {
+            okBtn.addEventListener('click', () => {
+                windowManager.closeWindow(windowId);
+            });
+        }
     }
 }
 

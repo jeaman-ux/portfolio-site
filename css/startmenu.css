@@ -5,12 +5,14 @@
     bottom: 28px;
     left: 0;
     width: 200px;
+    max-height: calc(100vh - 40px);
     background: #c0c0c0;
     border-top: 2px solid #ffffff;
     border-left: 2px solid #ffffff;
     border-right: 2px solid #000000;
     border-bottom: 2px solid #000000;
     z-index: 10001;
+    overflow-y: auto;
 }
 
 .start-menu-banner {
