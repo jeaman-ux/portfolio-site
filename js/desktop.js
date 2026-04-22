@@ -302,7 +302,8 @@ class Desktop {
 
         // Add click handlers to folder icons
         setTimeout(() => {
-            const folderIcons = win.querySelectorAll('.folder-icon');
+            const winEl = document.getElementById(win);
+            const folderIcons = winEl ? winEl.querySelectorAll('.folder-icon') : [];
             folderIcons.forEach(icon => {
                 icon.addEventListener('dblclick', () => {
                     const projectIndex = parseInt(icon.dataset.projectIndex);

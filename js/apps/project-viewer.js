@@ -98,6 +98,8 @@ class ProjectViewer {
     createPresentation(rawContent, project) {
         // Clean up the raw text
         let cleanText = rawContent
+            .replace(/​/g, '\n')
+            .replace(/ /g, ' ')
             .replace(/top of page/g, '')
             .replace(/bottom of page/g, '')
             .replace(/WorkAbout Me \+ XP/g, '')
@@ -106,7 +108,7 @@ class ProjectViewer {
             .replace(/Toolbox/g, '')
             .replace(/Screens/g, '')
             .replace(/Back/g, '')
-            .replace(/© 2020 Jordan AMAN JordanEAman@gmail.com/g, '')
+            .replace(/©\s*\d{4}\s*Jordan AMAN[^\n]*/g, '')
             .replace(/\| Portfolio/g, '')
             .trim();
 
@@ -139,7 +141,7 @@ class ProjectViewer {
             if (line.length === 0) continue;
 
             // Check if it's a section header (short line or ends with :)
-            if ((line.length < 50 && !line.includes('.')) || line.endsWith(':')) {
+            if ((line.length < 65 && !line.includes('.')) || line.endsWith(':')) {
                 if (currentSection.heading || currentSection.paragraphs.length > 0) {
                     sections.push(currentSection);
                 }

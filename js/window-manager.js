@@ -8,14 +8,26 @@ class WindowManager {
     }
 
     createWindow(options) {
+        const taskbarHeight = 28;
+        const availableHeight = globalThis.innerHeight - taskbarHeight;
+        const requestedWidth = options.width || 600;
+        const requestedHeight = options.height || 400;
+        const clampedHeight = Math.min(requestedHeight, availableHeight - 10);
+        const defaultX = 100 + (this.windows.length * 30);
+        const defaultY = 100 + (this.windows.length * 30);
+        const clampedX = options.x !== undefined ? options.x : Math.min(defaultX, (globalThis.innerWidth - requestedWidth - 10));
+        const clampedY = options.y !== undefined
+            ? Math.min(options.y, availableHeight - clampedHeight)
+            : Math.min(defaultY, availableHeight - clampedHeight);
+
         const window = {
             id: 'win-' + Date.now() + '-' + Math.random().toString(36).substr(2, 9),
             title: options.title || 'Untitled',
             icon: options.icon || '',
-            width: options.width || 600,
-            height: options.height || 400,
-            x: options.x !== undefined ? options.x : 100 + (this.windows.length * 30),
-            y: options.y !== undefined ? options.y : 100 + (this.windows.length * 30),
+            width: requestedWidth,
+            height: clampedHeight,
+            x: clampedX,
+            y: clampedY,
             content: options.content || '',
             resizable: options.resizable !== false,
             minimized: false,
